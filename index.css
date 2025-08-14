@@ -1,0 +1,13 @@
+.one{
+ color: blue;
+ border-style: solid;
+ border-color: black;
+ border-width: 2px;
+ display: inline-block;
+ background-color: pink;
+ 
+}
+body{
+    background-color: black ;
+    color: white;
+}
