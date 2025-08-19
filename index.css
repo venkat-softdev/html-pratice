@@ -7,7 +7,11 @@
  background-color: pink;
  
 }
-body{
-    background-color: black ;
-    color: white;
+
+.two{
+    background-color: aqua;
+    display: inline-block;
+    border: 1px;
+    border-style: solid;
+    border-color: red;
 }
