@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<center>
+    <h1 style="color: red;"> HTML FORMS</h1>
+</center>
+<body>
+    <h2> introduction:</h2>
+    <ul>
+        <li> HTml fors enable the collection and submission of user input ,such as text,selections,files,etc.</li>
+        <li> they are essential for craeting interavtive web applications,handling user regristration, searches,feedback, and more.</li>
+    </ul>
+    <div>
+        <h2> All form tag in HTML</h2>
+        <ul>
+            <li>form: Defines the form container for grouping input elements. </li>
+            <li> input: Creates various input fields,common types:</li>
+            <ol>
+                <li> text: Single-line text input.</li>
+                <li> password: Hidden-character input for password.</li>
+                <li> Email: Validates email format.</li>
+                <li> url: Validates wb address</li>
+                <li> tel: Telephone number input</li>
+                <li> Search: Search field</li>
+                <li> Number: Numeric input with optional min/max</li>
+                <li> Range: slider control for numeric ranges</li>
+                <li> date,time,week,month,datetime-local: date/time pickers.</li>
+                <li> color: color picker</li>
+                <li> file: file selector</li>
+                <li>hidden: hidden data field</li>
+                <li> checkbox and radio: selctions</li>
+                <li> submit,reset, button: form buttons</li>
+                <li> image: submit for, with image button</li>
+            </ol>
+            <li> textarea: multi-line text input for longer content</li>
+            <li> select: dropdown list,with optional grouping</li>
+            <li> label: accesable text label linked to form controls </li>
+            <li> button: defines clickable buttons can be styled</li>
+            <li> output: Displays the result of calculations or scripts</li>
+        </ul>
+    </div> 
+    <hr>
+    <center>
+      <div>
+        <form action="submit">
+            <label for="username"> username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your name"  required  >
+            <br>
+            <hr>
+            <label for="password"> password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br> 
+            <hr>
+            <label for="email"> Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter Your Email" required>
+            <br>
+            <hr>
+            <label for= "website"> website:</label>
+            <input type="text" id="website" name="website" placeholder="https://example.com" required>
+            <br>
+            <hr>
+             <label for="phone"> phone: </label>
+             <input type="number" name=" phone" id=" phone" placeholder="1234-567-890">
+             <br>
+             <hr>
+             <label for="Search">search:</label>
+             <input type="text" id="search" name="search" placeholder="search...">
+            <br>
+            <hr>
+            <label for="birthday"> birthday:</label>
+            <input type="date" id="date" name="birthday" >
+             <br>
+             <hr>
+             <label for="appointment time"> appointment time:</label>
+             <input type=" time"  name="time" id="time" placeholder="appointmenttime">
+               <br>
+               <hr>
+               <label for="meeting"> Meeting:</label>
+               <input type="datetime-local" name="meeting" id=" meeting" placeholder="meet time">
+                  <br>
+                  <hr>
+                  <label for="week"> week:</label>
+                  <input type="week" name="week" id="week">
+                  <br>
+                  <hr>
+                  <label for="month"> month:</label>
+                  <input type="month" name="month" id="month">
+                  <br>
+                  <hr>
+                  <label for="quantity"> quantity:</label>
+                  <input type="number" name=" quantity" id=" quantity" placeholder="Enter your Number">
+                  <br>
+                  <hr>
+                  <label for=" volume"> Volume:</label>
+                  <input type="range" name="volume" id="volume">
+                  <br>
+                  <hr>
+                  <label for="Fav color"> Fav color:</label>
+                  <input type="color" name="fav color" id=" fav color" >
+                  <br>
+                  <hr>
+                  <label for="upload Avatar"> upload Avatar:</label>
+                  <input type="file" name=" upload Avatar" id=" upload Avatar">
+                  <br>
+                  <hr>
+                  <label for="subcribe"> subcribe:</label>
+                  <input type="checkbox" name=" subcribe"  checked>
+                  <label for="unsubcribe"> unsubcribe:</label>
+                  <input type="checkbox" name=" unsubcribe" checked>
+                  <br>
+                  <hr>
+                  <label for="Gender"> Gender:</label>
+                  <label > <input type="radio" value="male"  name="Gender"> Male</label>
+                  <label > <input type="radio" value="female" name="Gender" > female</label>
+                     <br>
+                     <hr>
+                     <label for="Comments"> Comments:</label>
+                    <textarea name=" Comments" id=" Comments" placeholder="Enter your Comments"></textarea>
+                    <br>
+                    <hr>
+                     <label for="country" > country:</label>
+                     <select name="country" id=" country" >
+                        <option value=""> Select country</option>
+                        <option value=""> USA</option>
+                        <option value=""> UK</option>
+                        <option value=""> India</option>
+                     </select>
+                     <br>
+                     <hr>
+                     <label for="browser"> browser:</label>
+                     <select name=" browser" id=" browser" >
+                        <option value=""> Chrome</option>
+                        <option value=""> Firefox</option>
+                        <option value=""> Safari</option>
+                        <option value=> yahoo</option>
+                     </select>
+                     <br>
+                     <hr>
+                      <label for="submit">
+                        <input type="submit" name="submit" id="submit">
+                        <input type="reset" name="submit" id="submit">
+                      </label>      
+
+
+
+
+
+                      
+
+
+ 
+
+
+
+                    
+
+          </form>
+    </div>
+    </center>
+    
+</body>
+</html>

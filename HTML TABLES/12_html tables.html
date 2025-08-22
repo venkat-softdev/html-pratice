@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <style>
+        table{
+            width: 50%;
+            border-collapse: collapse ; 
+            margin-top: 10%;
+            
+            
+        }
+        th,td{
+            padding: 5px;
+            border-style: solid;
+            border-color: black;
+            text-align: center;
+            border-width: 3px;
+        }
+        tr :nth-child(even){
+            background-color:aqua;
+        }
+        tr :nth-child(odd){
+            background-color: yellow;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <center>
+    <h1 style="color: red;"> HTML TABLES</h1>
+</center>
+<hr>
+
+    <center>
+         <table>
+        <tr>
+            <th rowspan="2"> question</th>
+            <th colspan="2"> women</th>
+            <th colspan="2"> men</th>
+        </tr>
+        <tr>
+            <th> yes</th>
+            <th> no</th>
+            <th>yes</th>
+            <th>no</th>
+        </tr>
+        <tr>
+            <td> question1</td>
+            <td> 42%</td>
+            <td> 58%</td>
+            <td>61%</td>
+            <td> 39%</td>
+
+        </tr>
+        <tr>
+            <td> question 2</td>
+            <td> 53%</td>
+            <td>47%</td>
+            <td>69%</td>
+            <td> 31%</td>
+        </tr>
+        <tr>
+            <td> question 3</td>
+            <td> 26%</td>
+            <td> 74%</td>
+            <td> 51%</td>
+            <td> 49%</td>
+        </tr>
+        <tr>
+            <td> average</td>
+            <td> 40%</td>
+            <td>60%</td>
+            <td> 60%</td>
+            <td> 40%</td>
+        </tr>
+    </table>
+    </center>
+    <center>
+       <table>
+        <tr>
+            <th> Name</th>
+            <th> Job title</th>
+            <th> Email Address</th>
+        </tr>
+        <tr>
+            <td> Anna Fitgerald</td>
+            <td> Staff writer</td>
+            <td> example @ company.com</td>
+        </tr>
+        <tr> 
+            <td> john Smith</td>
+            <td> Marketting Manager</td>
+            <td> example2@company.com</td>
+        </tr>
+        <tr>
+            <td> zendaya grace</td>
+            <td> CEO</td>
+            <td> example3@company.com</td>
+        </tr>
+    </table>  
+    </center>
+</body>
+</html>

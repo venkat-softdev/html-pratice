@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title> introduction of html table</title>
+</head>
+<center>
+    <h1 style="color: red;"> Introduction OF TABLES</h1>
+</center>
+<hr>  
+<body>
+    <div>
+        <h2> introduction:</h2>
+        <ul>
+            <li> HTML  Tables are used to create a grid -like structure</li>
+            <li> they provide a way to organize and present information in a clear and concise manner</li>
+        </ul>
+
+    </div>
+    <div>
+        <h2> key HTML Table Elements</h2>
+        <ul>
+            <li> table  tag defines the table itself</li>
+            <li> (tr) tag table row ,used to  group a set of table cells</li>
+            <li> (td) tag table data,represent individual data cells</li>
+            <li> (th) tag  table header,used for column,row headings.</li>
+            <li> (thread,tbody,tfoot) tag optional elements to group header,body,and footer content</li>
+            <li>(caption) tag provides a caption or title for the table</li>
+        </ul>
+        <center>
+        </div>
+        <center>
+         <table>
+        <tr>
+            <th> No.</th>
+            <th> Full Name</th>
+            <th> Position</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td> 1</td>
+            <td> Bill gates</td>
+            <td> Founder Microsoft</td>
+            <td> $1000</td>
+        </tr>
+        <tr>
+            <td> 2</td>
+            <td>  steve jobs</td>
+            <td> founder apple</td>
+            <td> $1200</td>
+        </tr>
+        <tr>
+            
+            <td> 3</td>
+            <td> Larry Page</td>
+            <td>  Founder googgle</td>
+            <td>  $1100</td>
+        </tr>
+        <tr>
+            <td> 4</td>
+            <td>  Mark Zuckeberg</td>
+            <td>  Founder Facebook</td>
+            <td> $1300</td>
+        </tr>
+    </table>
+        </center>
+   
+        
+    
+    <style>
+        table{
+            width: 50%;
+            border-collapse: collapse;
+            
+        }
+        td,th{
+            border-color: black;
+            padding: 5px;
+            text-align: center;
+            border-style: solid;
+            color: black;
+            
+
+        }
+        tr :nth-child(even){
+            background-color: pink;
+            
+        }
+        tr :nth-child(odd){
+            background-color: aqua;
+        }
+
+          
+        
+    </style>
+    <center>
+        <table style="margin-top: 5%;">
+            <tr>
+                <th> no</th>
+                <th> Full name</th>
+                <th>  Position</th>
+                <th>  Salary</th>
+            </tr>
+            <tr>
+                <td> 1</td>
+                <td>  Bill Gates</td>
+                <td>  Founder Microsoft</td>
+                <td>  $1000</td>
+            </tr>
+            <tr>
+                <td> 2</td>
+                <td> Steve jobs</td>
+                <td>  Founder Apple</td>
+                <td>  $1200</td>
+            </tr>
+            <tr>
+                <td> 3</td>
+                <td>  Larry Page</td>
+                <td>  Founder Google</td>
+                <td>  $1100</td>
+            </tr>
+            <tr>
+                <td> 4</td>
+                <td> Mark Zuckeberg</td>
+                <td>  Founder Facebook</td>
+                <td>  $1300</td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
