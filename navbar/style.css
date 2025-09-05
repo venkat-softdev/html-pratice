@@ -1,0 +1,63 @@
+:root{
+    background-color: #f1f1f1;
+    --text:#333;
+    --white:#555;
+    --active:#ff6600;
+    --active-dark:#bb4b00;
+    -normal:#333;
+
+}
+
+*{
+    font-family: algerian;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+body{
+    background-color: aliceblue;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #333;
+}
+.venkatlogo{
+     font-size: 20px;
+     color: #ff6600;
+     cursor: pointer;
+     letter-spacing: 1px;
+}
+.navelements{
+    list-style: none;
+}
+.navelements li{
+    display: inline-block;
+    padding: 0px 20px ;
+   
+    
+}
+.navelements li a.Active{
+    color: #ff6600;
+    
+    
+}
+.navelements li a:hover{
+    color: #ff6600;
+    transition: 0.5;
+}
+.action{
+    background-color: #ff6600;
+    border-radius: 50px;
+    padding: 9px 25px;
+}
+.action:hover{
+    background-color: #bb4b00;
+    transition: 0.5s;
+}
