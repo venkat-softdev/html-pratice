@@ -1,0 +1,94 @@
+nav{
+    font-weight: bold;
+    text-align: center;
+    justify-content: space-between;
+    background-color: orangered;
+    margin-top: 0px;
+    padding: 0px;
+    letter-spacing: 1px;
+    padding: 4px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 50px;
+}
+h2,h3{
+    font-size: 25px;
+}
+nav h1{
+    font-size: 40px;
+}
+h1,h2,h3{
+    line-height: 20px;
+}
+.one{
+    padding-left: 50px;
+    font-size: 18px;
+}
+.fn{
+    padding-left: 50px;
+    line-height: 9px;
+    font-size: 18px;
+}
+.deals h3{
+    padding-left: px;
+    color: orangered;
+}
+.deals ul li{
+   padding-left: 0px;
+    list-style: none;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.timer h3{
+    padding-left: px;
+    color: orangered;
+}
+.timer p{
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+}
+.timer .two{
+    font-size: 40px;
+    padding-left: 20px;
+
+}
+.con {
+ text-align: center;
+ line-height: 10px;
+ font-size: 18px;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+    border: 2px,solid,black;
+    border-radius: 20px;
+    padding: 2px;
+     background-color: black;
+     color: white;
+     font-size: 18px;
+
+}
+a:hover{
+    color: yellow;
+    transition: 0.5s;
+}
+.content{
+    text-align: center;
+}
+*{
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+.sale{
+    text-align: center;
+    line-height: 10px;
+    font-size: 18px;
+    margin-bottom:5%;
+    
+}
