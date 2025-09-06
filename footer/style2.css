@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+footer{
+    background-color: #111;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+  
+}
+.socialicons a {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 2em;
+    color: #111;
+}
+.socialicons a:hover{
+    background-color: black;
+    transition: 0.5s;
+    opacity: 0.7;
+    
+}
+
+.socialicons a i:hover{
+    color: white;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+.footerlinks{
+  
+    margin: 30px 0px;
+    
+    
+}
+.footerlinks ul{
+        display: flex;
+    justify-content: center;
+    padding: 10px;
+      
+}
+.footerlinks ul a{
+    list-style: none;
+     text-decoration: none;
+     margin: 10px;
+     color: white;
+     opacity: 0.7;
+     
+    }
+    .footerlinks ul a:hover{
+        color: yellow;
+        transition: o.5s;
+        
+    }
+    .footerbottom{
+        background-color: black;
+        text-align: center;
+        margin: 10px;
+        padding: 20px;
+        color: white;
+        text-transform: uppercase;
+        transition: 0.5s;
+        cursor: pointer;
+        opacity: 0.7;
+    }
+    .venkat{
+        font-size: 18px;
+        font-weight: bold;
+        font-family: algerian;
+        cursor: pointer;
+        transform: 0.5s;
+         opacity: 0.7;
+    }
+    .venkat:hover{
+        color:  aliceblue;
+        transition: 0.7s;
+       
+    }
